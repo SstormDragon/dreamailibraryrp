@@ -21,7 +21,7 @@ function Website(){
  function choose(id:ChapterId){setChapter(id);setNotice('');}
  return <main className="shell">
   <div className="site-test-stamp" role="note"><span>THIS IS A TEST PLUG IN</span><strong>IN PROGRESS</strong></div>
-  <header className="mast"><a className="brand" href="./" aria-label="Dream AI Library Roleplay home"><span className="brand-mark" aria-hidden="true">❦</span><span>Dream AI Library Roleplay<small>By StormDragonStudios</small></span></a><a className="mast-contents" href={libraryUrl} target="_blank" rel="noreferrer">Saved library ↗</a></header>
+  <header className="mast"><a className="brand" href="./" aria-label="AI (ChatGPT) library home"><span className="brand-mark" aria-hidden="true">❦</span><span>AI (ChatGPT) library<small>Dream AI Library Roleplay · By StormDragonStudios</small></span></a><a className="mast-contents" href={libraryUrl}>Roleplay workspace ↗</a></header>
   <BookGuide chapter={chapter} onChapter={choose}>
    <section className="working-leaf working-spread" aria-label={info.name}>
     <article className="book-page paper-leaf page-left">
@@ -35,7 +35,7 @@ function Website(){
      <div className="running-head"><span>{info.name}</span><span>Your next step</span></div><h3>Begin with a conversation</h3><p>Copy this starter, open the roleplay plugin in ChatGPT, and make it your own.</p>
      <textarea className="public-starter" aria-label="Conversation starter" readOnly rows={7} value={text.starter}/>
      <button className="primary" onClick={()=>void copyStarter()}>Copy chat starter</button>{notice&&<p className="notice" role="status">{notice}</p>}
-     <h3>Your saved work</h3><p>Open your saved library to work with your roleplays, characters and writing settings. Sign in with the ChatGPT account that has access.</p><a className="book-action" href={libraryUrl} target="_blank" rel="noreferrer">Open saved library ↗</a>
+     <h3>Your saved work</h3><p>Open the roleplay workspace for your saved roleplays, characters and writing settings. Sign in with the ChatGPT account that has access.</p><a className="book-action" href={libraryUrl}>Open roleplay workspace ↗</a>
      <div className="page-folio"><span>Dream AI Library Roleplay</span><span>{String(chapters.findIndex(c=>c.id===chapter)*2+2).padStart(2,'0')}</span></div>
     </article>
    </section>
