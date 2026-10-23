@@ -6,4 +6,4 @@ Preserve unrelated book design, cover depth, star alignment, typography, saved r
 
 This repository hosts the public GitHub book at https://sstormdragon.github.io/dreamailibraryrp/. The AI (ChatGPT) workspace is hosted separately at https://dreamailibraryrp.fuzzyotter33.chatgpt.site/. Keep working links to both in README.md. Do not publish private saved roleplays or claim that repository downloads contain the live workspace.
 
-Keep website implementation and assets inside website/. The root index.html is the GitHub Pages entry point. Run builds from website/ and preserve asset paths relative to the root page. Grouping files in a folder changes their organization, not their public visibility.
+Keep website implementation and assets on the website branch, inside website/. Its root index.html is the GitHub Pages entry point. Run builds from website/ and preserve asset paths relative to the root page. The main branch is the download hub: keep website implementation files off main unless explicitly requested. Branch separation changes organization, not public visibility.
