@@ -26,6 +26,6 @@ The live tool and saved library continue on the existing, access-controlled app 
 
 Website code, fonts, styles and images are grouped in [website/](website/). The small root `index.html` opens the book at its existing address.
 
-Install Node.js, open the `website` folder, run `npm install`, then `npm run build`. Commit the resulting `website/website.js` with any source changes. GitHub Pages serves the repository root from the `main` branch.
+Install Node.js, open the `website` folder, run `npm install`, then `npm run build`. Commit the resulting `website/website.js` with any source changes. GitHub Pages serves the repository root from the `website` branch. The `main` branch stays focused on the project’s download hub.
 
 Typeface licenses are included alongside the fonts in `website/`.
