@@ -1,1 +1,0 @@
-{"name":"dream-ai-library-roleplay","version":"0.1.0","private":true,"type":"module","scripts":{"build":"node build.mjs"},"dependencies":{"react":"19.2.6","react-dom":"19.2.6"},"devDependencies":{"esbuild":"0.28.0"}}
