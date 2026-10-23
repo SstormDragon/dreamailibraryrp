@@ -21,7 +21,7 @@ function Website(){
  function choose(id:ChapterId){setChapter(id);setNotice('');}
  return <main className="shell">
   <div className="site-test-stamp" role="note"><span>THIS IS A TEST PLUG IN</span><strong>IN PROGRESS</strong></div>
-  <header className="mast"><a className="brand" href="./" aria-label="Dream AI Library Roleplay home"><span className="brand-mark" aria-hidden="true">❦</span><span>Dream AI Library Roleplay<small>By StormDragonStudios</small></span></a><a className="mast-contents workspace-link" href={libraryUrl} aria-label="AI (ChatGPT) workspace"><span>AI (ChatGPT)</span><span>workspace ↗</span></a></header>
+  <header className="mast"><a className="brand" href="./" aria-label="Dream AI Library Roleplay home"><span className="brand-mark" aria-hidden="true">❦</span><span>Dream AI Library Roleplay<small>By StormDragonStudios</small></span></a><a className="mast-contents workspace-link" href={libraryUrl} aria-label="AI (ChatGPT) workspace Library"><span>AI (ChatGPT)</span><span>workspace</span><span>Library ↗</span></a></header>
   <BookGuide chapter={chapter} onChapter={choose}>
    <section className="working-leaf working-spread" aria-label={info.name}>
     <article className="book-page paper-leaf page-left">
