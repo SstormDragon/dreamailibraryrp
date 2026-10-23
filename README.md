@@ -16,8 +16,8 @@ A toolkit for world creation, original characters, distinct AI character agents,
 This main branch is the project’s download hub. ChatGPT is the current AI integration. The live workspace opens through the link above and runs separately from repository downloads.
 
 <details>
-<summary>Website source</summary>
+<summary>Website deployment</summary>
 
-The book website is maintained on the [website branch](https://github.com/SstormDragon/dreamailibraryrp/tree/website), keeping its code out of the main file list. That branch is public and contains the website source, fonts, styles and images, together with build instructions.
+The live book is published from the [website branch](https://github.com/SstormDragon/dreamailibraryrp/tree/website). It contains generated browser assets with minified code and opaque nested filenames. Editable authoring files, build instructions and a recovery copy are maintained privately. Public browser assets can still be downloaded, and earlier public Git history remains accessible.
 
 </details>
